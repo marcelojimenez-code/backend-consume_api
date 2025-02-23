@@ -1,5 +1,5 @@
 import request from "supertest";
-import app from "../server.js";
+import app from "../src/server.js";
 
 describe("API Fetch Route", () => {
   it("Debe responder con un código 200 y un mensaje de éxito", async () => {
